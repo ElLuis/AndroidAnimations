@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".PaintActivity" />
         <activity android:name=".FrameActivity" />
-        <activity android:name=".TweenActivity"></activity>
+        <activity android:name=".TweenActivity"/>
 
         <meta-data
             android:name="preloaded_fonts"

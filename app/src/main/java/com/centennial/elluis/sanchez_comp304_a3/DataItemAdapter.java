@@ -11,15 +11,12 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by luisq on 3/1/2018.
- */
 
 
 public class DataItemAdapter extends ArrayAdapter<String> {
-    List<String> mStringItems;
-    LayoutInflater mInflater;
-    public DataItemAdapter(@NonNull Context context, @NonNull List<String> objects) {
+    private List<String> mStringItems;
+    private LayoutInflater mInflater;
+    DataItemAdapter(@NonNull Context context, @NonNull List<String> objects) {
         super(context, R.layout.list_item, objects);
 
         mStringItems = objects;
