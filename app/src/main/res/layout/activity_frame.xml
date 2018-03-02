@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.centennial.elluis.sanchez_comp304_a3.FrameActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/animationIV"
+        android:layout_above="@id/buttonsLayout"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startButton"
+            style="@style/buttonStyle"
+            android:elegantTextHeight="true"
+            android:layout_marginRight="25dp"
+            android:onClick="startAnimationOnClick"
+            android:text="@string/startButton" />
+
+        <Button
+            android:layout_marginLeft="25dp"
+            android:id="@+id/stopButton"
+            android:onClick="stopAnimationOnClick"
+            android:text="@string/stopButton"
+            style="@style/buttonStyle"/>
+    </LinearLayout>
+
+</RelativeLayout>

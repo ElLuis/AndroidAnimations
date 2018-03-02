@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/canoe1" android:duration="120"/>
+<item android:drawable="@drawable/canoe2" android:duration="120"/>
+<item android:drawable="@drawable/canoe3" android:duration="120"/>
+<item android:drawable="@drawable/canoe4" android:duration="120"/>
+<item android:drawable="@drawable/canoe5" android:duration="120"/>
+<item android:drawable="@drawable/canoe6" android:duration="120"/>
+<item android:drawable="@drawable/canoe7" android:duration="120"/>
+<item android:drawable="@drawable/canoe8" android:duration="120"/>
+<item android:drawable="@drawable/canoe9" android:duration="120"/>
+<item android:drawable="@drawable/canoe10" android:duration="120"/>
+<item android:drawable="@drawable/canoe11" android:duration="120"/>
+<item android:drawable="@drawable/canoe12" android:duration="120"/>
+<item android:drawable="@drawable/canoe13" android:duration="120"/>
+<item android:drawable="@drawable/canoe14" android:duration="120"/>
+<item android:drawable="@drawable/canoe15" android:duration="120"/>
+<item android:drawable="@drawable/canoe16" android:duration="120"/>
+<item android:drawable="@drawable/canoe17" android:duration="120"/>
+<item android:drawable="@drawable/canoe18" android:duration="120"/>
+</animation-list>

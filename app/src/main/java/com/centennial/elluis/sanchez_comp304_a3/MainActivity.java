@@ -50,9 +50,12 @@ public class MainActivity extends AppCompatActivity {
                                 break;
                             case "Task 2":
                                     Intent intent1 = new Intent(MainActivity.this,FrameActivity.class);
+                                    startActivity(intent1);
+
                                     break;
                             case "Task 3":
                                 Intent intent2 = new Intent(MainActivity.this,TweenActivity.class);
+                                startActivity(intent2);
                                 break;
                         }
 
