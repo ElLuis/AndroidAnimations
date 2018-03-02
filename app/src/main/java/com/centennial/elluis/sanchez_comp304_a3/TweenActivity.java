@@ -40,4 +40,8 @@ private ImageView earthImageView;
 
         earthImageView.startAnimation(animation);
     }
+
+    public void stopRevolveOnClick(View view) {
+        earthImageView.clearAnimation();
+    }
 }
