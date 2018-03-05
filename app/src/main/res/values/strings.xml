@@ -3,4 +3,17 @@
     <string name="indicatorMA">Select a task to show the solution</string>
     <string name="startButton">Start</string>
     <string name="stopButton">Stop</string>
+    <string name="thickness">Line thickness</string>
+    <string name="goldColor">Gold</string>
+    <string name="blueColor">Blue</string>
+    <string name="whiteColor">White</string>
+    <string name="arrow_keys">Arrow Keys</string>
+    <string name="lineColor_string">Line color</string>
+    <string-array name="thicknessArray">
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+    </string-array>
 </resources>
